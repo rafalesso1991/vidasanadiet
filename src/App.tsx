@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from './logo.svg'
+import logo from './logo.png'
 import './App.css'
 
 function App() {
@@ -9,32 +9,35 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
+        <p>Dietetica Vida Sana!</p>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
+            Carrito: {count}
           </button>
         </p>
         <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
+          COMER es una NECESIDAD
+        </p>
+        <p>
+          Comer SANO es un ARTE
         </p>
         <p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://www.facebook.com/Diet%C3%A9tica-Vida-Sana-103786834750937"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Facebook
           </a>
           {' | '}
           <a
             className="App-link"
-            href="https://vitejs.dev/guide/features.html"
+            href="https://instagram.com/vidasanadiet?igshid=YmMyMTA2M2Y="
             target="_blank"
             rel="noopener noreferrer"
           >
-            Vite Docs
+            Instagram
           </a>
         </p>
       </header>
